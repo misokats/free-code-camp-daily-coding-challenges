@@ -5,7 +5,7 @@
 
 def is_balanced(s):
     #母音の集合を定義
-    vowels = set("aeuioAEUIO")
+    vowels = set("aeiouAEIOU")
 
     #文字列の長さを半分にする
     n = len(s)
